@@ -1,0 +1,108 @@
+header{
+    text-align: center;
+    color: white;
+    font-size: 85px;
+    margin-top: 20px;
+}
+
+body{
+    background-color: #211E34;
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    color: #FB5C65;
+    border-style: solid;
+    text-decoration: none;
+    padding: 5px;
+}
+
+a:hover{
+    background-color:  #11101c;
+    color: white;
+}
+
+.game{
+    color: white;
+    max-width: 330px;
+}
+
+.game_title{
+    color: #FB5C65;
+    font-size: 25px;
+    margin: 2px;
+}
+
+.game_description{
+    color: #CCE3F5;
+    font-size: 20px;
+    margin: 2px;
+}
+
+.game_image{
+    border: 5px solid #010100;
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+}
+
+.game_image:hover{
+    z-index: 2;
+    transition: all 200ms ease-in;
+    transform: scale(1.02);
+}
+
+.games{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 325px);
+    justify-content: center;
+    align-items: top;
+
+    margin: 0 auto;
+    margin-top: 50px;
+
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 500px);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+.frame{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+}
+
+.art_piece{
+    width: 100%;
+
+}
+
+.art_header{
+    font-size: 50px;
+    color: #CCE3F5;
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    display: flex;
+    justify-content: center;
+    align-items: top;
+}
+
+nav{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
