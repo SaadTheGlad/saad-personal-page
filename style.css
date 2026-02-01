@@ -183,3 +183,17 @@ nav{
     width: 700px;
     height: 4000px;
 }
+
+#dark_mode{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+
+    color: #CCE3F5;
+    font-size: 15pt;
+}
+
+.saad_title{
+    margin: 0;
+    padding: 0;
+}
